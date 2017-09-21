@@ -18,7 +18,7 @@ body, h1, ul {
 .container {
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 30vh;
+  margin-top: 25vh;
 }
 
 h1, p {
@@ -67,4 +67,20 @@ CONTACT
   color: #F2F7FF;
   font-size: 1.2rem;
   text-decoration: none;
+}
+
+
+/**************************************
+MEDIA QUERIS
+***************************************/
+@media only screen and (max-width: 543px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
