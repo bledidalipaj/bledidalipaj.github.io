@@ -52,14 +52,13 @@ ICONS
 }
 
 /**************************************
-FOOTER
+CONTACT
 ***************************************/
-.footer ul {
-  display: inline;
+.contact ul {
   list-style-type: none;
-  padding: 0 41%;
+  text-align: center;
 }
 
-.footer ul li {
+.contact ul li {
   display: inline-block;
 }
