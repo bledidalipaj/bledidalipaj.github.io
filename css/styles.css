@@ -62,3 +62,9 @@ CONTACT
 .contact ul li {
   display: inline-block;
 }
+
+.mail a {
+  color: #F2F7FF;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
