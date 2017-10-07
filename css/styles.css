@@ -2,23 +2,42 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  background-color: #5089FF;
-  color: #EFF6FF;
+  min-height: 100%;
+}
+
+body {
+  background-color: #282828;
+  /* Add a dark overlay=στρώση to the background image so that the text can be easily read. */
+  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../img/background.jpeg);
+  /* The background-position property sets the starting position of a background image.
+   * By default, a background-image is placed at the top-left corner of an element, and
+   * repeated both vertically and horizontally.
+   */
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* cover: Scale the background image to be as large as possible so that the background area
+   * is completely covered by the background image. Some parts of the background image may
+   * not be in view within the background positioning area
+   */
+  background-size: cover;
+  color: #F2F7FF;                                            /* white color */
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-body, h1, ul {
+body, h1, p, ul {
   margin: 0;
   padding: 0;
 }
 
 .container {
+  max-height: 100%;
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 25vh;
+  padding-top: 25vh;
 }
 
 h1, p {
@@ -26,13 +45,11 @@ h1, p {
 }
 
 h1 {
-  color: #EFF6FF;
   font-family: 'Indie Flower', cursive;
   font-size: 5rem;
 }
 
 p {
-  color: #F2F7FF;
   font-size: 1.2rem;
 }
 
@@ -40,15 +57,10 @@ p {
 ICONS
 ***************************************/
 .icon {
-  color: #F2F7FF;
   fill: #F2F7FF;
   height: 3rem;
   margin: 0.5rem;
   width: 3rem;
-}
-
-.icon:hover {
-  fill: #000;
 }
 
 /**************************************
@@ -69,11 +81,14 @@ CONTACT
   text-decoration: none;
 }
 
-.mail a:hover {
-  color: #000;
+.mail a:hover, .footer a:hover {
   text-decoration: underline;
 }
 
+.footer a {
+  color: #F2F7FF;
+  text-decoration: none;
+}
 
 /**************************************
 MEDIA QUERIS
