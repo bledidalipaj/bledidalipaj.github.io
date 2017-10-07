@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background-color: #282828;
+  background-color: #060606;
   /* Add a dark overlay=στρώση to the background image so that the text can be easily read. */
   background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../img/background.jpeg);
   /* The background-position property sets the starting position of a background image.
@@ -28,7 +28,7 @@ body {
   line-height: 1;
 }
 
-body, h1, p, ul {
+body, h1, ul {
   margin: 0;
   padding: 0;
 }
