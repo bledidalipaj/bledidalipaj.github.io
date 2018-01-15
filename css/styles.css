@@ -4,13 +4,13 @@
 
 html,
 body {
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
   background-color: #060606;
   /* Add a dark overlay=στρώση to the background image so that the text can be easily read. */
-  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../img/background.jpeg);
+  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../img/background-min.jpeg);
   /* The background-position property sets the starting position of a background image.
    * By default, a background-image is placed at the top-left corner of an element, and
    * repeated both vertically and horizontally.
@@ -45,7 +45,7 @@ h1, p {
 }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Raleway', sans-serif;;
   font-size: 5rem;
 }
 
@@ -83,6 +83,10 @@ CONTACT
 
 .mail a:hover, .footer a:hover {
   text-decoration: underline;
+}
+
+.footer small {
+  font-size: 12px;
 }
 
 .footer a {
